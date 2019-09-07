@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "npm run serve",
     "build": "ng build",
+    "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "serve": "concurrently \"ng serve\" \"ts-node server/api-server.ts\"  \"ts-node server/chat-server.ts\""
