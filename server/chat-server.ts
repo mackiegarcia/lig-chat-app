@@ -13,8 +13,8 @@ io.on('connection', (socket) => {
     });
 });
 
-server.listen(environment.appPort, () => {
-    console.log(`chat port on[${environment.appPort}]`);
+server.listen(environment.chatServerPort, () => {
+    console.log(`chat port on[${environment.chatServerPort}]`);
 });
 
 

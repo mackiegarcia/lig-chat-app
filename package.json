@@ -3,12 +3,12 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "npm run serve",
+    "start": "npm run deploy",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "serve": "concurrently \"ng serve\" \"ts-node server/api-server.ts\"  \"ts-node server/chat-server.ts\""
+    "deploy": "concurrently \"ng serve\" \"ts-node server/api-server.ts\"  \"ts-node server/chat-server.ts\""
   },
   "private": true,
   "dependencies": {
