@@ -10,8 +10,8 @@ import { StatusCode } from '../../../server/config/status-code';
   styleUrls: ['./chatbox.component.css']
 })
 export class ChatboxComponent implements OnInit {
-  private chatMessages: ChatMessage[];
-  private chatMessage = '';
+  public chatMessages: ChatMessage[];
+  public chatMessage = '';
   private loggedUserId: number;
   private loggedUserName: string;
   private users: any;

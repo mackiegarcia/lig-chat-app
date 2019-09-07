@@ -10,12 +10,12 @@ import { StatusCode } from '../../../server/config/status-code';
 })
 
 export class LoginComponent implements OnInit {
-  private username: string;
-  private password: string;
-  private userNamePlaceHolder = 'User name';
-  private passwordPlaceHolder = 'password';
-  private userNameInputId = 'username-valid';
-  private passwordInputId = 'password-valid';
+  public username: string;
+  public password: string;
+  public userNamePlaceHolder = 'User name';
+  public passwordPlaceHolder = 'password';
+  public userNameInputId = 'username-valid';
+  public passwordInputId = 'password-valid';
 
   constructor(private accountSvc: AccountService, private utilSvc: UtilityService) { }
 
