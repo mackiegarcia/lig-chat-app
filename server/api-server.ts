@@ -18,6 +18,6 @@ app.use((req, res, next) => {
 
 app.use(express.json());
 app.use('/', routes);
-app.listen(environment.apiServerPort, () => {
+app.listen(process.env.PORT || environment.apiServerPort, () => {
     console.log(`api port on[${environment.apiServerPort}]`);
 });

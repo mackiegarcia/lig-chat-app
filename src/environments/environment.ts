@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  apiServerPort: '4201',
+  apiServerPort: process.env.PORT,
   chatServerPort: '4003',
   appPort: '4200',
 };
